@@ -3,7 +3,7 @@ import time
 from selenium import webdriver, common
 
 os.system('cls && title [TikTok Automated Viewbot]')
-VIDEO_URL = input('[>] TikTok Video URL: ')
+VIDEO_URL = input('[>]https://www.tiktok.com/@user021124178/photo/7601617463083666706?is_from_webapp=1&sender_device=pc')
 
 views_sent = 0
 options = webdriver.ChromeOptions()
